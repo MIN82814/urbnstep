@@ -6,6 +6,7 @@
 .brand-story_header {
     background-image: url(/img/hero.png);
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 151px 0;
     color: white;
