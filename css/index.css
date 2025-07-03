@@ -3,7 +3,7 @@
     max-width: 1920px;
 }
 
-.brand-story_header {
+.brand-story-header {
     background-image: url(../img/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,13 +12,14 @@
     color: white;
 }
 
-.brand-story_header .title {
+.brand-story-header .title {
     margin-bottom: 16px;
 }
 
-.brand-story_main {
+.brand-story-main {
     padding: 64px 0;
 }
+
 
 .quote-warp {
     margin: 0 auto;
@@ -42,6 +43,7 @@
     flex-direction: column;
     gap: 4px;
 }
+
 
 .main-warp {
     max-width: 856px;
