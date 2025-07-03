@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --green-color: #57A203;
+}
+
+body {
+    line-height: 1.5;
+    color: #212529;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.title-lh {
+    line-height: 1.2;
+}
+
+.tilte-mb {
+    margin-bottom: 24px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
