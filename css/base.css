@@ -8,6 +8,7 @@ body {
     line-height: 1.5;
     color: #212529;
     font-family: "Noto Sans TC", sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .fs-40 {
