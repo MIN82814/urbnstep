@@ -2,6 +2,7 @@
 
 :root {
     --green-color: #57A203;
+    --neutral900-color: #212529;
 }
 
 body {
@@ -49,4 +50,8 @@ body {
 
 .mb-4 {
     margin-bottom: 4px;
+}
+
+.d-flex {
+    display: flex;
 }
