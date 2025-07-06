@@ -1,6 +1,5 @@
 .container {
     margin: 0 auto;
-    max-width: 1920px;
 }
 
 .brand-story-header {
@@ -89,6 +88,7 @@
 .course-line {
     border-left: 1px solid #212529;
     margin: 0 8px;
+
 }
 
 .main-item-line {
