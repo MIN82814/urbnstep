@@ -1,6 +1,4 @@
-.container {
-    margin: 0 auto;
-}
+
 
 .brand-story-header {
     background-image: url(../img/hero.png);
@@ -36,7 +34,7 @@
 
 .quote .title {
     margin-bottom: 12px;
-    color: var(--green-color);
+    color: var(--Primary-400);
 }
 
 .quote .text {
@@ -78,7 +76,7 @@
 }
 
 .introduction .subtitle {
-    color: var(--green-color);
+    color: var(--Primary-400);
 }
 
 .main-item {
@@ -103,14 +101,14 @@
     margin-right: 6.5px;
     width: 20px;
     height: 20px;
-    color: var(--green-color);
+    color: var(--Primary-400);
     vertical-align: bottom;
 }
 
 .story a {
     text-decoration: underline;
     text-underline-offset: 4px;
-    color: var(--green-color);
+    color: var(--Primary-400);
     padding: 8px 0;
 }
 

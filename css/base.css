@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --green-color: #57A203;
+    --Primary-500: #477A11;
+    --Primary-400: #57A203;
+    --Primary-300: #C0FA73;
+    --Primary-200: #E8FEC5;
+    --Primary-100: #F5FEE7;
+
     --neutral-900: #212529;
+    --neutral-800: #343A40;
+    --neutral-700: #495057;
+    --neutral-600: #6C757D;
+    --neutral-500: #ADB5BD;
+    --neutral-400: #CED4DA;
+    --neutral-300: #DEE2E6;
+    --neutral-200: #E9ECEF;
+    --neutral-100: #F8F9FA;
+    --neutral-0: #FFFFFF;
+
 }
 
 body {
@@ -11,6 +26,112 @@ body {
     font-family: "Noto Sans TC", sans-serif;
     letter-spacing: 0.05em;
 }
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-1 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12);
+}
+
+.col-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*2;
+}
+
+.col-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*3;
+}
+
+.col-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*4;
+}
+
+.col-5 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*5;
+}
+
+.col-6 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*6;
+}
+
+.col-7 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*7;
+}
+
+.col-8 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*8;
+}
+
+.col-9 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*9;
+}
+
+.col-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*10;
+}
+
+.col-11 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12)*11;
+}
+
+.col-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 
 .fs-40 {
     font-size: 40px;
@@ -52,6 +173,34 @@ body {
     margin-bottom: 4px;
 }
 
-.d-flex {
-    display: flex;
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.me-48 {
+    margin-right: 48px;
+}
+
+.me-40 {
+    margin-right: 40px;
+}
+
+.p-12 {
+    padding: 12px;
+}
+
+.py-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.px-12 {
+    padding-right: 12px;
+    padding-left: 12px;
 }
