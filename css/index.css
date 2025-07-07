@@ -6,6 +6,7 @@
     background-image: url(../img/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     text-align: center;
     padding: 151px 0;
     color: white;
@@ -30,6 +31,7 @@
 .quote {
     text-align: center;
     background: #F5FEE7;
+    border-radius: 4px;
 }
 
 .quote .title {
