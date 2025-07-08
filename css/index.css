@@ -1,5 +1,3 @@
-
-
 .brand-story-header {
     background-image: url(../img/hero.png);
     background-size: cover;
@@ -14,9 +12,6 @@
     margin-bottom: 16px;
 }
 
-.brand-story-main {
-    padding: 64px 0;
-}
 
 
 .quote-warp {

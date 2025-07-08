@@ -42,16 +42,3 @@
     color: var(--neutral-600);
     text-align: center;
 }
-
-.product-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -4px;
-    margin-right: -4px;
-}
-
-.product-row .col-6 {
-    padding-left: 4px;
-    padding-right: 4px;
-    width: calc((100%/12)*6);
-}

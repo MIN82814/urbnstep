@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*顏色相關*/
 :root {
     --Primary-500: #477A11;
     --Primary-400: #57A203;
@@ -18,14 +19,24 @@
     --neutral-100: #F8F9FA;
     --neutral-0: #FFFFFF;
 
+    --danger-300: #D74F4F;
+    --danger-200: #EBA7A7;
+    --danger-200: #FCF1F1;
 }
 
+.text-primary-400 {
+    color: var(--Primary-400);
+}
 
+.text-danger-300 {
+    color: var(--danger-300);
+}
 
+/*通用樣式*/
 body {
     line-height: 1.5;
     color: var(--neutral-900);
-    font-family: "Noto Sans TC", sans-serif;
+    font-family: "Montserrat", "Noto Sans TC", sans-serif;
     letter-spacing: 0.05em;
 }
 
@@ -41,10 +52,51 @@ a:hover {
 
 .container {
     margin: 0 auto;
-    padding-right: 12px;
-    padding-left: 12px;
 }
 
+.border-b {
+    border-bottom: 1px solid var(--neutral-300);
+}
+
+
+/*按鈕*/
+.btn {
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.btn-dark {
+    background-color: var(--neutral-900);
+    color: var(--neutral-0);
+}
+
+.btn-dark:hover {
+    background-color: var(--neutral-700);
+}
+
+.btn-light {
+    border: 1px solid var(--neutral-900);
+}
+
+.btn-light:hover {
+    background-color: var(--neutral-900);
+    color: var(--neutral-0);
+}
+
+/*背景*/
+.bg-primary-200 {
+    background: var(--Primary-200);
+}
+
+.bg-neutral-100 {
+    background: var(--neutral-100);
+}
+
+/*格線系統相關*/
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +176,7 @@ a:hover {
     width: 100%;
 }
 
-
+/*flex相關*/
 
 .d-flex {
     display: flex;
@@ -146,9 +198,18 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.gap-8 {
+    gap: 8px;
+}
 
+
+/*文字大小*/
 .fs-40 {
     font-size: 40px;
+}
+
+.fs-32 {
+    font-size: 32px;
 }
 
 .fs-28 {
@@ -167,6 +228,7 @@ a:hover {
     font-size: 14px;
 }
 
+/*字重*/
 .fw-700 {
     font-weight: 700;
 }
@@ -175,49 +237,66 @@ a:hover {
     font-weight: 500;
 }
 
+/*行高*/
 .title-lh {
     line-height: 1.2;
 }
 
-.tilte-mb {
-    margin-bottom: 24px;
-}
-
-.border-b {
-    border-bottom: 1px solid#DEE2E6;
+/*margin*/
+.mr-auto {
+    margin-right: auto;
 }
 
 .mb-4 {
     margin-bottom: 4px;
 }
 
-.py-16 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+.me-8 {
+    margin-right: 8px;
 }
 
-.py-12 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.me-12 {
+    margin-right: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.me-24 {
+    margin-right: 24px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
 }
 
 .me-48 {
     margin-right: 48px;
 }
 
-.me-40 {
-    margin-right: 40px;
+.mb-64 {
+    margin-bottom: 64px;
 }
 
-.p-12 {
-    padding: 12px;
-}
 
-.py-32 {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
+/*padding*/
 .py-7 {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -228,56 +307,23 @@ a:hover {
     padding-bottom: 8px;
 }
 
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 .px-12 {
     padding-right: 12px;
     padding-left: 12px;
 }
 
-.mb-24 {
-    margin-bottom: 24px;
+.p-12 {
+    padding: 12px;
 }
 
-.mb-16 {
-    margin-bottom: 16px;
-}
-
-.mb-12 {
-    margin-bottom: 12px;
-}
-
-.mb-48 {
-    margin-bottom: 48px;
-}
-
-.btn {
-    border-radius: 4px;
-    padding: 12px 24px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-}
-
-.btn-dark {
-    background-color: var(--neutral-900);
-    color: var(--neutral-0);
-}
-
-.btn-dark:hover {
-    background-color: var(--neutral-700);
-}
-
-
-.me-12 {
-    margin-right: 12px;
-}
-
-.me-8 {
-    margin-right: 8px;
-}
-
-.bg-primary-200 {
-    background: var(--Primary-200);
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .py-24 {
@@ -285,24 +331,18 @@ a:hover {
     padding-bottom: 24px;
 }
 
-.me-24 {
-    margin-right: 24px;
-}
-
-.mr-auto {
-    margin-right: auto;
-}
-
-.mb-32 {
-    margin-bottom: 32px;
-}
-
 .pb-24 {
     padding-bottom: 24px;
 }
 
-.mb-64 {
-    margin-bottom: 64px;
+.py-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .pb-64 {
@@ -312,4 +352,8 @@ a:hover {
 .py-64 {
     padding-top: 64px;
     padding-bottom: 64px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
 }
