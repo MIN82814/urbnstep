@@ -54,9 +54,6 @@
 }
 
 
-.border-b {
-    border-bottom: 1px solid#DEE2E6;
-}
 
 .introduction-pb {
     padding-bottom: 48px;
@@ -118,7 +115,7 @@
 
 
 
-footer {
+.story-footer {
     background: #F8F9FA;
     color: #6C757D;
     padding: 64px 0;
