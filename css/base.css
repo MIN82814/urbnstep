@@ -350,6 +350,10 @@ a:hover {
     padding-bottom: 48px;
 }
 
+.pt-64 {
+    padding-top: 64px;
+}
+
 .pb-64 {
     padding-bottom: 64px;
 }
