@@ -8,74 +8,17 @@
     color: white;
 }
 
-.brand-story-header .title {
-    margin-bottom: 16px;
-}
-
-
-
-.quote-warp {
-    margin: 0 auto;
-    max-width: 856px;
-    padding: 32px;
-    margin-bottom: 48px;
-}
 
 .quote {
     text-align: center;
-    background: #F5FEE7;
     border-radius: 4px;
 }
 
-.quote .title {
-    margin-bottom: 12px;
-    color: var(--Primary-400);
-}
-
-.quote .text {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-
-.brandStory-main {
-    max-width: 856px;
-    margin: 0 auto;
-}
-
-.warp-padding {
-    padding: 48px 0;
-}
-
-
-
-.introduction-pb {
-    padding-bottom: 48px;
-}
-
-.introduction-img {
-    max-width: 1076px;
-    margin: 0 auto;
-    margin-bottom: 24px;
-}
 
 .introduction .text {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
     text-align: justify;
 }
 
-.introduction .subtitle {
-    color: var(--Primary-400);
-}
-
-.main-item {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
 
 .course-line {
     border-left: 1px solid #212529;
@@ -105,14 +48,5 @@
 }
 
 .story a:hover {
-    color: #477A11;
-}
-
-
-
-.story-footer {
-    background: #F8F9FA;
-    color: #6C757D;
-    padding: 64px 0;
-    text-align: center;
+    color: var(--Primary-500);
 }
