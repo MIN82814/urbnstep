@@ -1,38 +1,3 @@
-.breadcrumb-item+.breadcrumb-item::before {
-    content: '/';
-    padding: 0 12px;
-    color: var(--neutral-300);
-    font-weight: 700;
-}
-
-.breadcrumb-item {
-    display: flex;
-    align-items: center;
-}
-
-.breadcrumb-item-link {
-    color: var(--neutral-600);
-}
-
 .sidebarMenu .active {
     color: var(--Primary-400);
-}
-
-.page-item .active {
-    background: var(--Primary-300);
-    font-weight: 500;
-}
-
-.page-item .btn {
-    padding: 8px 15px;
-    border-radius: 0;
-}
-
-.page-item .btn:hover {
-    background: var(--neutral-100);
-}
-
-.copyRight {
-    color: var(--neutral-600);
-    text-align: center;
 }

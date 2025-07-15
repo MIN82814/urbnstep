@@ -4,8 +4,24 @@
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
-    padding: 151px 0;
     color: white;
+    padding: 151px 0;
+}
+
+
+
+@media (max-width:767px) {
+    .brand-story-header {
+        background-image: url(../img/hero-sm.png);
+        background-size: 100% 100%;
+        padding: 0;
+
+    }
+
+    .hero-opacity {
+        background-color: rgba(0, 0, 0, 0.299);
+        padding: 87px 0;
+    }
 }
 
 
@@ -14,6 +30,12 @@
     border-radius: 4px;
 }
 
+@media (max-width:767px) {
+    .quote {
+        text-align: left;
+
+    }
+}
 
 .introduction .text {
     text-align: justify;
