@@ -13,10 +13,34 @@
     color: var(--Primary-400);
 }
 
+.text-primary-300 {
+    color: var(--Primary-300);
+}
+
 .text-danger-300 {
     color: var(--danger-300);
 }
 
+.text-neutral-0 {
+    color: var(--neutral-0);
+}
+
+.text-neutral-500 {
+    color: var(--neutral-500);
+}
+
+/*背景*/
+.bg-primary-200 {
+    background: var(--Primary-200);
+}
+
+.bg-primary-100 {
+    background: var(--Primary-100);
+}
+
+.bg-neutral-100 {
+    background: var(--neutral-100);
+}
 
 /*按鈕*/
 .btn {
@@ -53,20 +77,24 @@
     color: var(--neutral-0);
 }
 
-
-
-/*背景*/
-.bg-primary-200 {
-    background: var(--Primary-200);
+.btn-Primary-300 {
+    background-color: var(--Primary-300);
+    color: var(--neutral-900);
 }
 
-.bg-primary-100 {
-    background: var(--Primary-100);
+.btn-Primary-300:hover {
+    color: var(--Primary-500);
 }
 
-.bg-neutral-100 {
-    background: var(--neutral-100);
+@media (max-width:576px) {
+    .btn-Primary-300 {
+        padding: 12px 24px;
+    }
 }
+
+
+
+
 
 /*格線系統相關*/
 .row {
@@ -201,6 +229,9 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
+.flex-column{
+    flex-direction: column;
+}
 
 .gap-8 {
     gap: 8px;
@@ -208,6 +239,10 @@
 
 .d-none {
     display: none;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 @media (max-width:767px) {
@@ -276,21 +311,58 @@
     font-weight: 500;
 }
 
+.text-lg {
+    font-size: 20px;
+}
+
+.dispaly1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.dispaly2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+
 @media (max-width:767px) {
+    .h2-md {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
     .h3-md {
         font-size: 28px;
+        line-height: 1.2;
+        font-weight: 700;
     }
 
     .h4-md {
         font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
     }
 
     .h5-md {
         font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
     }
 
     .h6-md {
         font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+
+    .dispaly2-md {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
     }
 }
 
@@ -367,6 +439,11 @@
     margin-right: 24px;
 }
 
+.mx-24 {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
 .mb-32 {
     margin-bottom: 32px;
 }
@@ -391,10 +468,17 @@
     margin-bottom: 64px;
 }
 
+
 @media(max-width:767px) {
     .mb-md-0 {
         margin-bottom: 0;
     }
+
+    .mx-md-0 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
 
     .mb-md-8 {
         margin-bottom: 8px;
@@ -414,6 +498,10 @@
 
     .mb-md-32 {
         margin-bottom: 32px;
+    }
+
+    .mb-md-40 {
+        margin-bottom: 40px;
     }
 
 }
@@ -437,6 +525,11 @@
 }
 
 /*padding*/
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .py-7 {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -533,6 +626,11 @@
         padding: 24px;
     }
 
+    .py-md-24 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
 
     .px-md-24 {
         padding-right: 24px;
@@ -546,6 +644,11 @@
 
     .pb-md-32 {
         padding-bottom: 32px;
+    }
+
+    .py-md-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
 
