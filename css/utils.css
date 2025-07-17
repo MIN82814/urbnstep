@@ -229,7 +229,8 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
-.flex-column{
+
+.flex-column {
     flex-direction: column;
 }
 
@@ -243,6 +244,14 @@
 
 .text-align-center {
     text-align: center;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
 }
 
 @media (max-width:767px) {
@@ -431,6 +440,10 @@
     margin-bottom: 16px;
 }
 
+.me-16 {
+    margin-right: 16px;
+}
+
 .mb-24 {
     margin-bottom: 24px;
 }
@@ -467,6 +480,8 @@
 .mb-64 {
     margin-bottom: 64px;
 }
+
+
 
 
 @media(max-width:767px) {
@@ -557,6 +572,11 @@
 .p-12 {
     padding: 12px;
 }
+
+.p-16 {
+    padding: 16px;
+}
+
 
 .py-16 {
     padding-top: 16px;
